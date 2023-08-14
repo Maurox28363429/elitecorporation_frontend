@@ -1,0 +1,1 @@
+const r=e=>{localStorage.setItem("user",JSON.stringify(e.data)),localStorage.setItem("token",JSON.stringify(e.token))},t=()=>JSON.parse(localStorage.getItem("user")),o=()=>{localStorage.removeItem("user"),localStorage.removeItem("token")},s=()=>!!t();export{t as g,s as i,o as r,r as s};

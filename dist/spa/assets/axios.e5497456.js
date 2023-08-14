@@ -1,0 +1,1 @@
+import{b as i}from"./index.56b46820.js";import{a}from"./axios.7331a07d.js";const s=a.create({baseURL:"https://phoenixtechsa.com/"});var r=i(({app:o})=>{o.config.globalProperties.$axios=a,o.config.globalProperties.$api=s});export{s as api,r as default};
